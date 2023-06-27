@@ -1,0 +1,52 @@
+<form class="bg-light text-center col-md-8" action="/add" method="post">
+   <div>
+      <h1 class="text text-primary">Add new toy</h1>
+   </div>
+   <div class="form-group mt-3">
+      <label class="text text-success">Name</label>
+      <input class="form-control" type="text" name="name" required>
+   </div>
+   <div class="form-group mt-3">
+      <label class="text text-success">Brand</label>
+      <select name="brand" id="" required >
+      <option value="TRANSFORMER" name="brand">TRASN</option>
+      <option value="LEGO" name="brand">LEGO</option>
+      <option value="DISNEY" name="brand">DISNEY</option>
+      <option value="DC" name="brand">DC</option>
+      </select>
+
+   </div>
+   <div class="form-group mt-3">
+      <label class="text text-success">Origin</label>
+
+      <select name="origin" id="" required>
+         <option value="Vietnam" name="origin">Vietnam</option>
+         <option value="China" name="origin">China</option>
+         <option value="US" name="origin">US</option>
+      </select>
+
+   </div>
+   <div class="form-group mt-3">
+      <label class="text text-success">Material</label>
+      <input class="form-control" type="text" name="material" required>
+   </div>
+   <div class="form-group mt-3">
+      <label class="text text-success">Quantity</label>
+      <input class="form-control" type="number" name="quantity" required>
+   </div>
+   <div class="form-group mt-3">
+      <label class="text text-success">Image</label>
+      <input class="form-control" type="text" name="image" required>
+   </div>
+   <div class="form-group mt-3">
+      <label class="text text-success">Price</label>
+      <input class="form-control" type="number" name="price" required>
+   </div>
+     <div class="form-group mt-3">
+      <label class="text text-success">Date</label>
+      <input class="form-control" type="text" name="date" required>
+   </div>
+   <div class="form-group mt-3">
+      <input class="btn btn-danger" type="submit" value="Add">
+   </div>
+</form>
